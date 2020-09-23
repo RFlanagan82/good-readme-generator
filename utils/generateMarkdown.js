@@ -1,18 +1,26 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+
+
+
+
+
+
+
+
     return `
     
     # Title
-    ${data.title}
+    ${data.Title}
   
     ## Table of Contents
     *[Description](#description)
     *[Installation requirements](#installation)
     *[Usage Information](#usage)
-    *[License](#license)
     *[Credits / Contributions](#contributors)
     *[Resources](#resources)
     *[Tests](#tests)
+    *[License](#license)
     *[Questions](#questions)
 
     ## Description
@@ -24,9 +32,6 @@ function generateMarkdown(data) {
     ## Usage Information
     ${data.Usage}
 
-    ## License
-    ${data.License}
-
     ## Credits & Contributions
     ${data.Contributors}
 
@@ -36,12 +41,13 @@ function generateMarkdown(data) {
     ## Tests
     ${data.Tests}
 
+    ## License
+    ${data.License}
+
     ## Questions
     Contact:
 
     Github: [${data.userName}](https://github.com/RFlanagan82)
-
-    LinkedIn: [${data.linkedInProfile}](https://www.linkedin.com/in/ryanflanagan82/)
 
     Email: [${data.Email}](mailto:flanagan.ryan@gmail.com)
   
