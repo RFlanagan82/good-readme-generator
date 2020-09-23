@@ -8,7 +8,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 
-// array of questions for user
+// Create the array of questions for user
 const questions = [
     {
         type: "input",
@@ -79,11 +79,26 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+            throw err;
+        }
+    });
 }
 
 // function to initialize program
 function init() {
 
+    //need to utilize inquirer.prompt on the questions array, then take user inputs and log collective response.
+ inquirer.prompt(questions).then(inputs => {
+
+    //create constant variable of response to collet generateMarkdown user inputs
+     const response = generateMarkdown(inputs);
+     console.log(inputs);
+
+     //run writeToFile in init function
+     writeToFile("README.md", response)
+ })
 }
 
 // function call to initialize program
