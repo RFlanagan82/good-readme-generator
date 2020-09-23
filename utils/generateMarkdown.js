@@ -1,12 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-
-
-
-
-
-
-
+    let licenseText = "";
+    let licenseLink = licenseText
+    if (data.license === "APACHE 2.0"){
+        licenseLink = str.link("[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)");
+    }
 
     return `
     
@@ -43,6 +41,7 @@ function generateMarkdown(data) {
 
     ## License
     ${data.License}
+    ${licenseText}
 
     ## Questions
     Contact:

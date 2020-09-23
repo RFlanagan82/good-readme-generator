@@ -88,8 +88,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
-    //need to utilize inquirer.prompt on the questions array, then take user inputs and log collective response.
+//need to utilize inquirer.prompt on the questions array, then take user inputs and log collective response.
  inquirer.prompt(questions).then(inputs => {
 
     //create constant variable of response to collet generateMarkdown user inputs
