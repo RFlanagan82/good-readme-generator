@@ -1,48 +1,59 @@
 
-    
-    # Title
-    Good Readme Generator
+# Title
+adsfasdf
 
-    ## Badge
-    undefined
-  
-    ## Table of Contents
-    *[Description](#description)
-    *[Installation requirements](#installation)
-    *[Usage Information](#usage)
-    *[Credits / Contributions](#contributors)
-    *[Resources](#resources)
-    *[Tests](#tests)
-    *[License](#license)
-    *[Questions](#questions)
+## License Badge
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-    ## Description
-    To create a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer Package.
+## Table of Contents
+* [Description](#description)
+* [Installation requirements](#installation)
+* [Usage Information](#usage)
+* [Credits / Contributions](#contributors)
+* [Resources](#resources)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
-    ## Installation Requirements
-    Steps ABC
+## Description
+asdfadf
 
-    ## Usage Information
-    These are referenced in the Submission Requirements section within [instructions.md](https://github.com/RFlanagan82/good-readme-generator/blob/master/instructions.md)
+## Installation Requirements
+adsfadsf
 
-    ## Credits & Contributions
-    On 9-24-2020, I worked with tutor Andrew Hardemon - who helped me create dynamically generated License links and helped me add my DS_Store file.
+## Usage Information
+asdfadsf
 
-    ## Resources
-    *[Markdown License badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) 
+## Credits & Contributions
+afafds
 
-    ## Tests
-      *[JavaScript String Link Method](https://www.w3schools.com/jsref/jsref_link.asp) 
+## Resources
+asdfasdf
 
-    ## License
-    Boost 1.0
-    
+## Tests
+afasf
 
-    ## Questions
-    Contact:
+## License
+APACHE 2.0
+Copyright [2020] [asfdas]
 
-    Github: [RFlanagan82](https://github.com/RFlanagan82)
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-    Email: [flanagan.ryan@gmail.com](mailto:flanagan.ryan@gmail.com)
-  
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Questions
+Contact:[asfdas]
+
+Github: [asfa](https://github.com/RFlanagan82)
+
+Email: [afasdfaf](mailto:flanagan.ryan@gmail.com)
+
     

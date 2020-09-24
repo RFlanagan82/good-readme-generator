@@ -66,6 +66,11 @@ const questions = [
     },
     {
         type: "input",
+        message: "Provide your name.",
+        name: "name"
+    },
+    {
+        type: "input",
         message: "Provide your Github username.",
         name: "userName"
     },
@@ -83,6 +88,7 @@ function writeToFile(fileName, data) {
         if (err) {
             throw err;
         }
+        console.log("Successfully wrote file.");
     });
 }
 
@@ -95,9 +101,13 @@ function init() {
      const response = generateMarkdown(inputs);
      console.log(inputs);
 
+
      //run writeToFile in init function
      writeToFile("README.md", response)
  })
+ .catch((err) => {
+    console.log(err);
+  });
 }
 
 // function call to initialize program
