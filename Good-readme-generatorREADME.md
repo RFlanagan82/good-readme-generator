@@ -26,6 +26,12 @@ This application requires the following technologies and packages to work:
 *[Inquirer Package]
 *[FS Package]
 
+To start, clone this repo and run your terminal from index.js, on the command line via node index.js.
+
+Once opened, you will be asked a series of questions to help you complete your fully generated readme.md file.
+
+![](/assets/Readme%20Generator%20questions.png)
+
 ## Credits & Contributions
 On 9-24-2020, I worked with tutor Andrew Hardemon - who helped me create dynamically generated License links and helped me add my DS_Store file.
 
@@ -41,7 +47,11 @@ I ran my initial test in terminal on 9-23-2020.
 
 As you can see I am able to have my generator template questions running in the terminal.
 
-![](/assets/)
+![](/assets/Good%20Readme%20Generator%20HW_Test%20in%20Terminal_9-23.png)
+
+An ititial challenge was in getting the selected license to show dynamically into the generated readme.
+
+![](/assets/Difficulties%20Testing%20the%20license%20badge%20for%20selected%20license%20in%20ReadMe%20Generator.png)
 
 
 ## Badge
