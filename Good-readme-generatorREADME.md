@@ -33,13 +33,14 @@ Once opened, you will be asked a series of questions to help you complete your f
 ![](/assets/Readme%20Generator%20questions.png)
 
 ## Credits & Contributions
-On 9-24-2020, I worked with tutor Andrew Hardemon - who helped me create dynamically generated License links and helped me add my DS_Store file.
+On 9-24-2020, I worked with tutor Andrew Hardemon - who helped me format my template literals for the dynamically generated License texts, license badges and helped me add my DS_Store file in the .gitignore file.
 
 ## Resources
   *[Markdown License badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) 
   *[JavaScript String Link Method](https://www.w3schools.com/jsref/jsref_link.asp) 
   *[Adding Badges to Readme Files](https://lgtm.com/help/lgtm/adding-badges-to-project-readme-files)
   *[Badge Generator - Shields.io](https://shields.io/)
+  *[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
   * GT-FT Unit 1_Supplimental Resources - Good ReadMe guide
 
 ## Tests
@@ -52,6 +53,10 @@ As you can see I am able to have my generator template questions running in the 
 An ititial challenge was in getting the selected license to show dynamically into the generated readme.
 
 ![](/assets/Difficulties%20Testing%20the%20license%20badge%20for%20selected%20license%20in%20ReadMe%20Generator.png)
+
+I reformated the licenseText using template literals and pushed them all to the far left of the panel so they read as markdown, then ran another test to validate.
+
+![](assets/assets/Correcting%20the%20formatting%20of%20my%20template%20iterals%20for%20the%20license%20text.png)
 
 
 ## Badge

@@ -53,8 +53,7 @@ const questions = [
             "APACHE 2.0",
             "Boost 1.0",
             "BSD",
-            "Eclipse 1.0",
-            "IBM 1.0",
+            "ISC",
             "MIT",
             "None"
         ]
