@@ -102,7 +102,7 @@ function init() {
 
 
      //run writeToFile in init function
-     writeToFile("README.md", response)
+     writeToFile("dummyreadme.md", response)
  })
  .catch((err) => {
     console.log(err);
