@@ -1,8 +1,8 @@
 # good-readme-generator
 To create a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer Package.
 
-## Description
-See above.
+## Deployed Application Review
+[Watch the video demonstrating the application here:](https://drive.google.com/file/d/1lnz4wXe1dVYFKx_dVniaFutdR-Hhfuyy/view)
 
 ## Contents
 This application contains the following elements:
