@@ -61,7 +61,7 @@ I reformated the licenseText using template literals and pushed them all to the 
 
 
 ## Badge
-https://img.shields.io/badge/RFlanagan82-Do%20it%20for%20the%20users-green
+![](https://img.shields.io/badge/RFlanagan82-Do%20it%20for%20the%20users-green)
 
 ## License
 Copyright 2020 - <Ryan Flanagan>
